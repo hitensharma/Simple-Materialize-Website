@@ -1,0 +1,41 @@
+$blue: #05386b;
+$green-dark: #379683;
+$green: #5cdb95;
+$green-light: #8ee4af;
+$white: #edf5e1;
+* {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav-wrapper {
+  background-color: $blue;
+  padding: 0 1rem;
+  .brand-logo {
+    font-family: "Kaushan Script", cursive;
+  }
+}
+
+.slider {
+  .indicators {
+    .indicator-item.active {
+      background-color: $blue;
+    }
+  }
+}
+
+.parallax-container {
+  min-height: 280px;
+  height: auto;
+  img {
+    width: 200vw;
+    height: auto;
+  }
+}
+
+.icon-burger {
+  color: $blue;
+}
+.footer-one {
+  background: $blue;
+}

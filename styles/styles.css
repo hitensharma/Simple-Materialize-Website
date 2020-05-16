@@ -1,0 +1,37 @@
+* {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper {
+  background-color: #05386b;
+  padding: 0 1rem;
+}
+
+.nav-wrapper .brand-logo {
+  font-family: "Kaushan Script", cursive;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #05386b;
+}
+
+.parallax-container {
+  min-height: 280px;
+  height: auto;
+}
+
+.parallax-container img {
+  width: 200vw;
+  height: auto;
+}
+
+.icon-burger {
+  color: #05386b;
+}
+
+.footer-one {
+  background: #05386b;
+}
+/*# sourceMappingURL=styles.css.map */
